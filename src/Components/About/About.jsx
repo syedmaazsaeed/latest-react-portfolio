@@ -6,7 +6,6 @@ import { HiUsers } from "react-icons/hi2";
 import { FaCircleCheck } from "react-icons/fa6";
 
 
- 
 const About = () => {
   return (
     <section id='about'>
