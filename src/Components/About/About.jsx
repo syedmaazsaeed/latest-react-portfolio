@@ -33,8 +33,8 @@ const About = () => {
 
 
         </article>
-        <article className='client__card'>
-        <HiUsers className='client__icon'/>
+        <article className='about__card'>
+        <HiUsers className='about__icon'/>
           <h5>Clients</h5>
           <small>Global Network of Satisfied Clients</small>
 
