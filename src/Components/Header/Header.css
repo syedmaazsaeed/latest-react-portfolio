@@ -43,7 +43,6 @@ header {
 
 }
 
-
          /*  ME (Developer) */
 
          .me {
@@ -87,7 +86,6 @@ header {
     transform: rotate(90deg);
     font-weight: 300;
     font-size: 1rem;
-
  }           
 
  /*  MEDIA QUERIES (Medium Devices) */
@@ -97,7 +95,6 @@ header {
     header {
 
         height: 68vh;
-
     }
 }
 
