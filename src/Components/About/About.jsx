@@ -52,7 +52,7 @@ const About = () => {
        <p>
            Hi Everyone, I am Syed Maaz Saeed from Bahawalpur, Pakistan.
           I am currently Working as a MERN Stack Technology.As a self-taught Front-End Developer | React Developer I specialize in modern web technologies, including React Node Express JS and MongoDB.I have completed (ICS) in Maths and Computer at Superior Group of College Bahawalpur.
-          I am currently delving deep into the field of software engineering at the Islamia University of Bahawalpur, where I am eager to explore the new technological era and stay consistently updated to remain at the forefront of innovation and development
+          I am currently delving deep into the field of software engineering at the Islamia University of Bahawalpur, where I am eager to explore the new technological era and stay consistently updated to remain at the forefront of innovation and development.
        </p>
 
        <a href="#contact" className='btn btn-primary'>Let's Talk</a>
