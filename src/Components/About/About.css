@@ -111,8 +111,15 @@ h2 {
 
     }
     .about__cards {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: 1rem;
     }
-    
+    .about__content {
+        text-align: center;
+
+    }
+    .about__content p {
+        margin: 1.5rem 0;
+
+    }
 }
