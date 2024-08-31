@@ -129,6 +129,7 @@ section#about {
     }
     .about__content {
         text-align: center;
+        margin-top: -3rem;
 
     }
     .about__content p {
@@ -137,6 +138,8 @@ section#about {
     }
     section#about {
         padding-top: 0;
-        margin-top: 3rem; 
+        /* margin-top: -7rem;  */
     }
+    
+    
 }

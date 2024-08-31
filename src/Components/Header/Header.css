@@ -110,6 +110,7 @@ header {
     header {
 
         height: 100vh;
+        padding-top: 4rem;
     }
     .header__socials, .scroll__down {
         display: none;
@@ -119,7 +120,9 @@ header {
         height: 19rem;
         left: calc(50% - 7rem);
         padding: 1.5rem 1rem 0 1rem;
+        
     }
+    
 
     .me img {
         object-fit: contain;
