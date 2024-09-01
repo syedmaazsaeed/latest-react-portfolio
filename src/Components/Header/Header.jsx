@@ -27,3 +27,6 @@ const Header = () => {
 }
 
 export default Header
+
+
+// Import necessary modules and assets. Define the Header component with a greeting, name, roles, image, social links, and scroll down functionality, then export the component for use in other parts of the application.
