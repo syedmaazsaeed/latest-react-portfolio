@@ -125,3 +125,17 @@ header {
         /* height: auto; */
     }
 }
+
+
+/* 
+    Purpose and Comments:
+
+    - The `header` section sets the overall dimensions and padding for the header, ensuring it covers the full viewport height and adding space at the top.
+    - The `.header__container` class centers the content within the header, makes it take up the full height, and manages overflow.
+    - The `.cta` class styles the call-to-action section by adding margin, creating a gap between elements, and centering them horizontally.
+    - The `.header__socials` class styles the social links, positioning them on the left side at the bottom and stacking them vertically with spacing.
+    - The `.header__socials::after` pseudo-element adds a vertical line below the social links, using the primary color.
+    - The `.me` class styles the image container, centering it, adding a gradient background, and setting its dimensions and hover effects.
+    - The `.scroll__down` class positions the scroll-down link to the right and rotates it 90 degrees to sit horizontally at the bottom.
+    - Media queries ensure the header and image adjust appropriately on medium and small devices, hiding certain elements on smaller screens for better usability.
+*/
