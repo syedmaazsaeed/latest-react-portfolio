@@ -137,3 +137,7 @@ section#about {
     
     
 }
+
+
+/* Header Space Adjustment: If the space between the image and the text in the header is still too large, consider reducing the padding-top or margin-top values further.
+About Section Layout: Ensure that the layout grid in the About section collapses smoothly to a single column on mobile, and adjust the spacing accordingly. */
