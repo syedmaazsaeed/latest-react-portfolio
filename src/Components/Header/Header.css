@@ -109,21 +109,20 @@ header {
     }
 }
 
-/* Header Component */
 @media only screen and (min-width: 428px) and (max-width: 432px) {
     header {
         height: 100vh;
-        padding-top: 7rem; /* Increase padding if needed */
+        padding-top: 7rem; 
     }
     .header__container {
-        padding: 0 1.5rem; /* Increase padding if needed */
+        padding: 0 1.5rem;
     }
     .me {
-        width: 20rem; /* Adjust width */
-        height: 26rem; /* Adjust height */
-        left: calc(50% - 10rem); /* Adjust position */
+        width: 20rem; 
+        height: 26rem; 
+        left: calc(50% - 10rem); 
     }
     .scroll__down {
-        bottom: 5rem; /* Adjust position */
+        bottom: 5rem; 
     }
 }

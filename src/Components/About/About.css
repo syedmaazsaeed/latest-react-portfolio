@@ -143,18 +143,16 @@
         
     }
 
-   
-   /* About Component */
 @media only screen and (min-width: 428px) and (max-width: 432px) {
     .about__me {
-        width: 65%; /* Adjust width */
-        margin: 2.5rem auto 5rem; /* Adjust margins */
+        width: 65%; 
+        margin: 2.5rem auto 5rem; 
     }
     .about__cards {
-        gap: 1.5rem; /* Adjust gap */
+        gap: 1.5rem; 
     }
     .about__content p {
-        margin: 1.5rem 0 2rem; /* Adjust margins */
+        margin: 1.5rem 0 2rem; 
     }
     
 }
