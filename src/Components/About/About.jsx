@@ -8,7 +8,9 @@ import { FaCircleCheck } from "react-icons/fa6";
 
 const About = () => {
   return (
+    <div className="maaz">
     <section id='about'>
+     
       <h5>Get To Know Me</h5>
       <h2>My Journey</h2>
      
@@ -56,7 +58,11 @@ const About = () => {
        <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>
+
+    
     </section>
+    </div>
+  
   )
 }
 
