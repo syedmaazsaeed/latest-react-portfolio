@@ -170,3 +170,7 @@
 
 Both button animations use basic CSS transitions for smooth visual effects.
 */
+
+/* Summary of Comments:
+Glowing Border Button Animation: Creates a glowing effect that expands across the button when hovered, along with a smooth transition.
+3D Tilt Button Animation: Adds a lift effect with shadows when hovered, and makes the button appear pressed when clicked. */
