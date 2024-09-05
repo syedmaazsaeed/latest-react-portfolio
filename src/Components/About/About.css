@@ -157,4 +157,16 @@
 
 
 
+/* End of animations */
 
+/* Comments:
+1. Glowing Border Button Animation: 
+   - Applies a gradient glow effect that expands across the button on hover.
+   - Transitions are used to make the hover and active states smoother.
+
+2. 3D Tilt Button Animation: 
+   - Adds a slight lift effect with shadow when hovered, simulating a 3D button.
+   - The button pushes down on click to give a responsive feel.
+
+Both button animations use basic CSS transitions for smooth visual effects.
+*/
