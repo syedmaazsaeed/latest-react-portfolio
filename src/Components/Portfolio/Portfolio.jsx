@@ -36,6 +36,27 @@ const Portfolio = () => {
       description: 'Project Three is an innovative solution with a unique approach to problem-solving.',
       image: 'https://via.placeholder.com/300x200',
       link: '#'
+    },
+    {
+      id: 4,
+      title: 'Project Three',
+      description: 'Project Three is an innovative solution with a unique approach to problem-solving.',
+      image: 'https://via.placeholder.com/300x200',
+      link: '#'
+    },
+    {
+      id: 5,
+      title: 'Project Three',
+      description: 'Project Three is an innovative solution with a unique approach to problem-solving.',
+      image: 'https://via.placeholder.com/300x200',
+      link: '#'
+    },
+    {
+      id: 6,
+      title: 'Project Three',
+      description: 'Project Three is an innovative solution with a unique approach to problem-solving.',
+      image: 'https://via.placeholder.com/300x200',
+      link: '#'
     }
   ];
 
