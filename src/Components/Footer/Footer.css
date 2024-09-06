@@ -1,4 +1,4 @@
-/* Footer Section */
+/* Footer Section
 #footer {
     background-color: var(--color-dark);
     color: var(--color-light);
@@ -42,12 +42,12 @@
 .footer__copy {
     font-size: 0.9rem;
     color: var(--color-light);
-}
+} */
 
 /* Responsive Design */
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
     .footer__link {
         display: block;
         margin: 0.5rem 0;
     }
-}
+} */
