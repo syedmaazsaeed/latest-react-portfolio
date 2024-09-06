@@ -1,4 +1,4 @@
-/* Contact Section */
+/* Contact Section
 #contact {
     padding: 4rem 0;
     text-align: center;
@@ -56,10 +56,10 @@
 .contact__details a:hover {
     color: var(--color-primary);
     text-decoration: underline;
-}
+} */
 
 /* Media Query for responsiveness */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .contact__container {
         padding: 1rem;
     }
@@ -77,4 +77,4 @@
     #contact h2 {
         font-size: 1.75rem;
     }
-}
+} */
