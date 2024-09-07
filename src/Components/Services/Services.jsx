@@ -4,6 +4,7 @@ import { IoShieldCheckmarkSharp } from "react-icons/io5";
 
 
 const Services = () => {
+
   return (
     <section id='services'>
       <h5>What I Offer</h5>
@@ -57,6 +58,7 @@ const Services = () => {
       <article className="service">
 
 <div className="service__head">
+  
   <h3>Web Development</h3>
 </div>
 
@@ -140,6 +142,7 @@ const Services = () => {
   </li>
 </ul>
 </article>
+
 {/* END Of Software Development */}
 
      </div>
