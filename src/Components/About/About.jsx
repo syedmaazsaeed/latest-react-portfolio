@@ -1,12 +1,27 @@
 import React from 'react'
-import './About.css'
+import './About.css';
+import { useState } from 'react';
 import ME from '../../assets/two.jpeg';
+import ME2 from '../../assets/image1.jpg'; 
+import ME3 from '../../assets/image2.jpg'; 
+import ME4 from '../../assets/image3.jpg'; 
 import { FaAward } from "react-icons/fa6";
 import { HiUsers } from "react-icons/hi2";
 import { FaCircleCheck } from "react-icons/fa6";
 
 
 const About = () => {
+  // { // Array of images }
+  const images = [ME, ME2, ME3, ME4];
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  // Function to handle hover and change the image
+
+  const handleImageHover = () => {
+
+    
+    setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+  };
   return (
     <div className="maaz">
     <section id='about'>
@@ -17,9 +32,10 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           
-        <div className="about__me-image">
+        <div className="about__me-image" onMouseEnter={handleImageHover}>
 
-            <img src={ME} alt="About Image" />
+        <img src={images[currentImageIndex]} alt="About Image" />
+
 
           </div>
         </div>
