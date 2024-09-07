@@ -24,8 +24,6 @@
     --container-width-lg: 75%;
     --container-width-md: 86%;
     --container-width-sm: 90%;
-
-
 }
 
 html {
@@ -50,7 +48,6 @@ body {
   .container {
     width: var(--container-width-lg);
     margin: 0 auto;
-
   }
 
 h1, h2, h3, h4, h5 {
@@ -74,12 +71,10 @@ section > h2, section > h5 {
 secction > h2 {
     color: var(--color-primary);
     margin-bottom: 3rem;
-
 }
                           
 .text-light {
     color: var(--color-light);
-
 }
 
 a {
@@ -99,19 +94,16 @@ a:hover{
     cursor: pointer;
     border: 1px solid var(--color-primary);
     transition: var(--transition);
-
 }
 
 .btn:hover {
     background: var(--color-white);
     color: var(--color-bg);
     border-color: transparent;
-
 }
 .btn-primary {
     background: var(--color-primary);
     color: var(--color-bg);
-
 }
 
 img {
@@ -125,7 +117,6 @@ img {
 @media screen and (max-width: 1024px) {
     .container {
         width: var(--container-width-md);
-
     }
 
     section {
@@ -144,7 +135,6 @@ img {
 
     section > h2 {
         margin-bottom: 2rem;
-
     }
     
 }
