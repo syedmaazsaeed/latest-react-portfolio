@@ -23,7 +23,7 @@ const Services = () => {
             </li>
             <li>
               <IoShieldCheckmarkSharp className='service__list-icon' />
-              <p>Experienced in competitive programming, actively solving challenges on platforms like <a href="https://leetcode.com/u/syedmuhammadmaaz/">LeetCode</a> to sharpen my problem-solving skills.</p>
+              <p>Experienced in competitive programming, actively solving challenges on platforms like <a href="https://leetcode.com/u/syedmuhammadmaaz/" target='_blank'>LeetCode</a> to sharpen my problem-solving skills.</p>
             </li>
             <li>
               <IoShieldCheckmarkSharp className='service__list-icon' />
@@ -31,7 +31,7 @@ const Services = () => {
             </li>
             <li>
               <IoShieldCheckmarkSharp className='service__list-icon' />
-              <p>Check out my <a href="https://github.com/syedmaazsaeed">GitHub</a> for hands-on projects involving algorithm development, API integration, and innovative solutions.</p>
+              <p>Check out my <a href="https://github.com/syedmaazsaeed" target='_blank'>GitHub</a> for hands-on projects involving algorithm development, API integration, and innovative solutions.</p>
             </li>
           </ul>
         </article>
@@ -78,7 +78,7 @@ const Services = () => {
             </li>
             <li>
               <IoShieldCheckmarkSharp className='service__list-icon' />
-              <p>Collaborated on open-source projects, contributing to a vibrant developer community. Check out my work on <a href="https://github.com/syedmaazsaeed">GitHub</a>.</p>
+              <p>Collaborated on open-source projects, contributing to a vibrant developer community. Check out my work on <a href="https://github.com/syedmaazsaeed" target='_blank'>GitHub</a>.</p>
             </li>
           </ul>
         </article>
