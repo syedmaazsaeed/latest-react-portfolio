@@ -104,22 +104,28 @@ const Portfolio = () => {
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
       <div className="container portfolio__container">
-         <article className='portfolio__item'>
+         {
+            data.map(({id, image, title, github, demoLink}) => {
+               return (
+                  <article key={id} className='portfolio__item'>
           <div className="portfolio__item-image">
              
-             <img src={Github} alt="Github Full Stack MERN Project" />
+             <img src={image} alt={title} />
           </div>
-          <h3>Github-CodeSource-MernApp</h3>
+          <h3>{title}</h3>
 
           <div className="portfolio__item-cta">     
 
-         <a href="https://github.com/" className='btn' target='_blank'>Github</a>
-          <a href="https://github.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
+         <a href={github} className='btn' target='_blank'>Github</a>
+          <a href={demoLink} className='btn btn-primary' target='_blank'>Live Demo</a>
 
           </div>
 
 
          </article>
+               )
+            })
+         }
      
       </div>
     </section>
