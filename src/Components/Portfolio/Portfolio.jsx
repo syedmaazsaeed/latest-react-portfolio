@@ -22,8 +22,13 @@ const Portfolio = () => {
              <img src={Github} alt="Github Full Stack MERN Project" />
           </div>
           <h3>This is a Portfolio Item Title</h3>
-          <a href="https://github.com/" className='btn' target='_blank'>Github</a>
+
+          <div className="portfolio__item-cta">     
+
+         <a href="https://github.com/" className='btn' target='_blank'>Github</a>
           <a href="https://github.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
+
+          </div>
 
 
          </article>
@@ -33,8 +38,12 @@ const Portfolio = () => {
              <img src={WeatherApp} alt="Github Full Stack MERN Project" />
           </div>
           <h3>This is a Portfolio Item Title</h3>
-          <a href="https://github.com/" className='btn' target='_blank'>Github</a>
+          <div className="portfolio__item-cta">     
+            
+         <a href="https://github.com/" className='btn' target='_blank'>Github</a>
           <a href="https://github.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
+
+          </div>
 
 
          </article>
@@ -44,8 +53,12 @@ const Portfolio = () => {
              <img src={NoteVault} alt="Github Full Stack MERN Project" />
           </div>
           <h3>This is a Portfolio Item Title</h3>
-          <a href="https://github.com/" className='btn' target='_blank'>Github</a>
-          <a href="https://github.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
+          <div className="portfolio__item-cta">     
+            
+            <a href="https://github.com/" className='btn' target='_blank'>Github</a>
+             <a href="https://github.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
+   
+             </div>
 
 
          </article>
@@ -55,8 +68,12 @@ const Portfolio = () => {
              <img src={NewsPulse} alt="Github Full Stack MERN Project" />
           </div>
           <h3>This is a Portfolio Item Title</h3>
-          <a href="https://github.com/" className='btn' target='_blank'>Github</a>
+          <div className="portfolio__item-cta">     
+            
+         <a href="https://github.com/" className='btn' target='_blank'>Github</a>
           <a href="https://github.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
+
+          </div>
 
 
          </article>
@@ -66,8 +83,12 @@ const Portfolio = () => {
              <img src={MovieApp} alt="Github Full Stack MERN Project" />
           </div>
           <h3>This is a Portfolio Item Title</h3>
-          <a href="https://github.com/" className='btn' target='_blank'>Github</a>
-          <a href="https://github.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
+          <div className="portfolio__item-cta">     
+            
+            <a href="https://github.com/" className='btn' target='_blank'>Github</a>
+             <a href="https://github.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
+   
+             </div>
 
 
          </article>
@@ -77,8 +98,12 @@ const Portfolio = () => {
              <img src={TextWizard} alt="Github Full Stack MERN Project" />
           </div>
           <h3>This is a Portfolio Item Title</h3>
-          <a href="https://github.com/" className='btn' target='_blank'>Github</a>
+          <div className="portfolio__item-cta">     
+            
+         <a href="https://github.com/" className='btn' target='_blank'>Github</a>
           <a href="https://github.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
+
+          </div>
 
 
          </article>
@@ -88,8 +113,12 @@ const Portfolio = () => {
              <img src={EcommerceStore} alt="Github Full Stack MERN Project" />
           </div>
           <h3>This is a Portfolio Item Title</h3>
-          <a href="https://github.com/" className='btn' target='_blank'>Github</a>
+         <div className="portfolio__item-cta">     
+            
+         <a href="https://github.com/" className='btn' target='_blank'>Github</a>
           <a href="https://github.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
+
+          </div>
 
 
          </article>
@@ -99,8 +128,12 @@ const Portfolio = () => {
              <img src={TechfolioReact} alt="Github Full Stack MERN Project" />
           </div>
           <h3>This is a Portfolio Item Title</h3>
-          <a href="https://github.com/" className='btn' target='_blank'>Github</a>
+          <div className="portfolio__item-cta">     
+            
+         <a href="https://github.com/" className='btn' target='_blank'>Github</a>
           <a href="https://github.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
+
+          </div>
 
 
          </article>
@@ -110,8 +143,12 @@ const Portfolio = () => {
              <img src={SimpleResume} alt="Github Full Stack MERN Project" />
           </div>
           <h3>This is a Portfolio Item Title</h3>
-          <a href="https://github.com/" className='btn' target='_blank'>Github</a>
-          <a href="https://github.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
+          <div className="portfolio__item-cta">     
+            
+            <a href="https://github.com/" className='btn' target='_blank'>Github</a>
+             <a href="https://github.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
+   
+             </div>
 
 
          </article>
