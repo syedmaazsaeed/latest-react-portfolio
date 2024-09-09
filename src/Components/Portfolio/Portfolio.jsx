@@ -30,7 +30,7 @@ const Portfolio = () => {
          <article className='portfolio__item'>
           <div className="portfolio__item-image">
              
-             <img src={Github} alt="Github Full Stack MERN Project" />
+             <img src={WeatherApp} alt="Github Full Stack MERN Project" />
           </div>
           <h3>This is a Portfolio Item Title</h3>
           <a href="https://github.com/" className='btn' target='_blank'>Github</a>
@@ -41,7 +41,7 @@ const Portfolio = () => {
          <article className='portfolio__item'>
           <div className="portfolio__item-image">
              
-             <img src={Github} alt="Github Full Stack MERN Project" />
+             <img src={NoteVault} alt="Github Full Stack MERN Project" />
           </div>
           <h3>This is a Portfolio Item Title</h3>
           <a href="https://github.com/" className='btn' target='_blank'>Github</a>
@@ -52,7 +52,7 @@ const Portfolio = () => {
          <article className='portfolio__item'>
           <div className="portfolio__item-image">
              
-             <img src={Github} alt="Github Full Stack MERN Project" />
+             <img src={NewsPulse} alt="Github Full Stack MERN Project" />
           </div>
           <h3>This is a Portfolio Item Title</h3>
           <a href="https://github.com/" className='btn' target='_blank'>Github</a>
@@ -63,7 +63,7 @@ const Portfolio = () => {
          <article className='portfolio__item'>
           <div className="portfolio__item-image">
              
-             <img src={Github} alt="Github Full Stack MERN Project" />
+             <img src={MovieApp} alt="Github Full Stack MERN Project" />
           </div>
           <h3>This is a Portfolio Item Title</h3>
           <a href="https://github.com/" className='btn' target='_blank'>Github</a>
@@ -74,7 +74,40 @@ const Portfolio = () => {
          <article className='portfolio__item'>
           <div className="portfolio__item-image">
              
-             <img src={Github} alt="Github Full Stack MERN Project" />
+             <img src={TextWizard} alt="Github Full Stack MERN Project" />
+          </div>
+          <h3>This is a Portfolio Item Title</h3>
+          <a href="https://github.com/" className='btn' target='_blank'>Github</a>
+          <a href="https://github.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
+
+
+         </article>
+         <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+             
+             <img src={EcommerceStore} alt="Github Full Stack MERN Project" />
+          </div>
+          <h3>This is a Portfolio Item Title</h3>
+          <a href="https://github.com/" className='btn' target='_blank'>Github</a>
+          <a href="https://github.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
+
+
+         </article>
+         <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+             
+             <img src={TechfolioReact} alt="Github Full Stack MERN Project" />
+          </div>
+          <h3>This is a Portfolio Item Title</h3>
+          <a href="https://github.com/" className='btn' target='_blank'>Github</a>
+          <a href="https://github.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
+
+
+         </article>
+         <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+             
+             <img src={SimpleResume} alt="Github Full Stack MERN Project" />
           </div>
           <h3>This is a Portfolio Item Title</h3>
           <a href="https://github.com/" className='btn' target='_blank'>Github</a>
