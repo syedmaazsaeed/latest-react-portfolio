@@ -1,14 +1,14 @@
 import React from 'react';
-import './Testimonials.scss';
+import './Testimonials.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Pagination, Autoplay } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
 // Import images for the testimonials
-import image1 from '/path/to/image1.jpg';
-import image2 from '/path/to/image2.jpg';
-import image3 from '/path/to/image3.jpg';
+import image1 from '../../assets/me.jpg';
+import image2 from '../../assets/me.jpg';
+import image3 from '../../assets/me.jpg';
 
 SwiperCore.use([Autoplay, Pagination]);
 
