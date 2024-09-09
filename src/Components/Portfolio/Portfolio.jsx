@@ -21,7 +21,7 @@ const Portfolio = () => {
              
              <img src={Github} alt="Github Full Stack MERN Project" />
           </div>
-          <h3>This is a Portfolio Item Title</h3>
+          <h3>Github-CodeSource-MernApp</h3>
 
           <div className="portfolio__item-cta">     
 
@@ -37,7 +37,7 @@ const Portfolio = () => {
              
              <img src={WeatherApp} alt="Github Full Stack MERN Project" />
           </div>
-          <h3>This is a Portfolio Item Title</h3>
+          <h3>ForecastFusion-Weather-App</h3>
           <div className="portfolio__item-cta">     
             
          <a href="https://github.com/" className='btn' target='_blank'>Github</a>
@@ -52,7 +52,7 @@ const Portfolio = () => {
              
              <img src={NoteVault} alt="Github Full Stack MERN Project" />
           </div>
-          <h3>This is a Portfolio Item Title</h3>
+          <h3>iNotebook</h3>
           <div className="portfolio__item-cta">     
             
             <a href="https://github.com/" className='btn' target='_blank'>Github</a>
@@ -67,7 +67,7 @@ const Portfolio = () => {
              
              <img src={NewsPulse} alt="Github Full Stack MERN Project" />
           </div>
-          <h3>This is a Portfolio Item Title</h3>
+          <h3>NewsPulse</h3>
           <div className="portfolio__item-cta">     
             
          <a href="https://github.com/" className='btn' target='_blank'>Github</a>
@@ -82,7 +82,7 @@ const Portfolio = () => {
              
              <img src={MovieApp} alt="Github Full Stack MERN Project" />
           </div>
-          <h3>This is a Portfolio Item Title</h3>
+          <h3>MoviesHub</h3>
           <div className="portfolio__item-cta">     
             
             <a href="https://github.com/" className='btn' target='_blank'>Github</a>
@@ -97,7 +97,7 @@ const Portfolio = () => {
              
              <img src={TextWizard} alt="Github Full Stack MERN Project" />
           </div>
-          <h3>This is a Portfolio Item Title</h3>
+          <h3>TextWizards</h3>
           <div className="portfolio__item-cta">     
             
          <a href="https://github.com/" className='btn' target='_blank'>Github</a>
@@ -112,7 +112,7 @@ const Portfolio = () => {
              
              <img src={EcommerceStore} alt="Github Full Stack MERN Project" />
           </div>
-          <h3>This is a Portfolio Item Title</h3>
+          <h3>EcommerceShopifyStore-reactApp (Firebase Authentication)</h3>
          <div className="portfolio__item-cta">     
             
          <a href="https://github.com/" className='btn' target='_blank'>Github</a>
@@ -127,7 +127,7 @@ const Portfolio = () => {
              
              <img src={TechfolioReact} alt="Github Full Stack MERN Project" />
           </div>
-          <h3>This is a Portfolio Item Title</h3>
+          <h3>Techfolio React</h3>
           <div className="portfolio__item-cta">     
             
          <a href="https://github.com/" className='btn' target='_blank'>Github</a>
@@ -142,7 +142,7 @@ const Portfolio = () => {
              
              <img src={SimpleResume} alt="Github Full Stack MERN Project" />
           </div>
-          <h3>This is a Portfolio Item Title</h3>
+          <h3>Web Portfolio</h3>
           <div className="portfolio__item-cta">     
             
             <a href="https://github.com/" className='btn' target='_blank'>Github</a>
