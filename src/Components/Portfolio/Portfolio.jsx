@@ -10,6 +10,94 @@ import EcommerceStore from '../../assets/ecommerceStore.jpg';
 import TechfolioReact from '../../assets/react-techfolio.png';
 import SimpleResume from '../../assets/resume.png';
 
+
+
+
+const data = [
+
+   {
+      id: 1,
+      image: Github,
+      title: 'Github-CodeSource-FullStack-App',
+      github: 'https://github.com',
+      demo: 'https://syedmaasaeed.tech/'
+
+
+   },
+   {
+      id: 2,
+      image: WeatherApp,
+      title: 'ForecastFusion-Weather-App',
+      github: 'https://github.com',
+      demo: 'https://syedmaasaeed.tech/'
+
+
+   },
+   {
+      id: 3,
+      image: NoteVault,
+      title: 'NoteVaultPro-MernApp',
+      github: 'https://github.com',
+      demo: 'https://syedmaasaeed.tech/'
+
+
+   },
+   {
+      id: 4,
+      image: NewsPulse,
+      title: 'React-NewsPulse-App',
+      github: 'https://github.com',
+      demo: 'https://syedmaasaeed.tech/'
+
+
+   },
+   {
+      id: 5,
+      image: MovieApp,
+      title: 'React-Movie-Search',
+      github: 'https://github.com',
+      demo: 'https://syedmaasaeed.tech/'
+
+
+   },
+   {
+      id: 6,
+      image: TextWizard,
+      title: 'ReactJS-WordCounter',
+      github: 'https://github.com',
+      demo: 'https://syedmaasaeed.tech/'
+
+
+   },
+   {
+      id: 7,
+      image: EcommerceStore,
+      title: 'EcommerceShopifyStore-reactApp',
+      github: 'https://github.com',
+      demo: 'https://syedmaasaeed.tech/'
+
+
+   },
+   {
+      id: 8,
+      image: TechfolioReact,
+      title: 'Techfolio-React ',
+      github: 'https://github.com',
+      demo: 'https://syedmaasaeed.tech/'
+
+
+   },
+   {
+      id: 9,
+      image: SimpleResume,
+      title: 'Github-CodeSource-FullStack-App',
+      github: 'https://github.com',
+      demo: 'https://syedmaasaeed.tech/'
+
+
+   },
+
+]
 const Portfolio = () => {
   return (
     <section id='portfolio'>
@@ -32,126 +120,7 @@ const Portfolio = () => {
 
 
          </article>
-         <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-             
-             <img src={WeatherApp} alt="Github Full Stack MERN Project" />
-          </div>
-          <h3>ForecastFusion-Weather-App</h3>
-          <div className="portfolio__item-cta">     
-            
-         <a href="https://github.com/" className='btn' target='_blank'>Github</a>
-          <a href="https://github.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
-
-          </div>
-
-
-         </article>
-         <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-             
-             <img src={NoteVault} alt="Github Full Stack MERN Project" />
-          </div>
-          <h3>iNotebook</h3>
-          <div className="portfolio__item-cta">     
-            
-            <a href="https://github.com/" className='btn' target='_blank'>Github</a>
-             <a href="https://github.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
-   
-             </div>
-
-
-         </article>
-         <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-             
-             <img src={NewsPulse} alt="Github Full Stack MERN Project" />
-          </div>
-          <h3>NewsPulse</h3>
-          <div className="portfolio__item-cta">     
-            
-         <a href="https://github.com/" className='btn' target='_blank'>Github</a>
-          <a href="https://github.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
-
-          </div>
-
-
-         </article>
-         <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-             
-             <img src={MovieApp} alt="Github Full Stack MERN Project" />
-          </div>
-          <h3>MoviesHub</h3>
-          <div className="portfolio__item-cta">     
-            
-            <a href="https://github.com/" className='btn' target='_blank'>Github</a>
-             <a href="https://github.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
-   
-             </div>
-
-
-         </article>
-         <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-             
-             <img src={TextWizard} alt="Github Full Stack MERN Project" />
-          </div>
-          <h3>TextWizards</h3>
-          <div className="portfolio__item-cta">     
-            
-         <a href="https://github.com/" className='btn' target='_blank'>Github</a>
-          <a href="https://github.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
-
-          </div>
-
-
-         </article>
-         <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-             
-             <img src={EcommerceStore} alt="Github Full Stack MERN Project" />
-          </div>
-          <h3>EcommerceShopifyStore-reactApp (Firebase Authentication)</h3>
-         <div className="portfolio__item-cta">     
-            
-         <a href="https://github.com/" className='btn' target='_blank'>Github</a>
-          <a href="https://github.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
-
-          </div>
-
-
-         </article>
-         <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-             
-             <img src={TechfolioReact} alt="Github Full Stack MERN Project" />
-          </div>
-          <h3>Techfolio React</h3>
-          <div className="portfolio__item-cta">     
-            
-         <a href="https://github.com/" className='btn' target='_blank'>Github</a>
-          <a href="https://github.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
-
-          </div>
-
-
-         </article>
-         <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-             
-             <img src={SimpleResume} alt="Github Full Stack MERN Project" />
-          </div>
-          <h3>Web Portfolio</h3>
-          <div className="portfolio__item-cta">     
-            
-            <a href="https://github.com/" className='btn' target='_blank'>Github</a>
-             <a href="https://github.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
-   
-             </div>
-
-
-         </article>
+     
       </div>
     </section>
   )
