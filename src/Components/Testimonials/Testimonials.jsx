@@ -1,51 +1,60 @@
 import React from 'react';
-import './Testimonials.css';
+import './Testimonials.scss';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import SwiperCore, { Pagination, Autoplay } from 'swiper';
+import 'swiper/css';
+import 'swiper/css/pagination';
+
+// Import images for the testimonials
+import image1 from '/path/to/image1.jpg';
+import image2 from '/path/to/image2.jpg';
+import image3 from '/path/to/image3.jpg';
+
+SwiperCore.use([Autoplay, Pagination]);
 
 const testimonials = [
   {
     name: "John Doe",
-    review: "Syed Maaz Saeed provided exceptional service and created an outstanding web app for my company. His professionalism and coding skills are top-notch. Highly recommended!",
-    image: "https://via.placeholder.com/150"
+    review: "Syed Maaz Saeed is a remarkable developer with outstanding skills. His work ethic and ability to deliver exceptional results are unmatched. Highly recommended!",
+    image: image1
   },
   {
     name: "Jane Smith",
-    review: "The mobile app development was smooth and efficient. Syed's expertise in Flutter made the process seamless and the final product was just what we needed.",
-    image: "https://via.placeholder.com/150"
+    review: "Working with Syed has been a pleasure. His expertise in React and Flutter has brought our projects to life with great efficiency and creativity.",
+    image: image2
   },
   {
     name: "Alex Johnson",
-    review: "Working with Syed on a full-stack project was a great experience. He is detail-oriented, communicates well, and delivers on time. Highly recommend him for MERN stack development.",
-    image: "https://via.placeholder.com/150"
+    review: "Syed's attention to detail and dedication to his craft make him a top-tier developer. His ability to handle complex projects with ease is truly impressive.",
+    image: image3
   }
 ];
 
 const Testimonials = () => {
   return (
-    <section id='testimonials'>
+    <section id="testimonials">
       <h5>What Our Clients Say</h5>
       <h2>Testimonials</h2>
 
-      <div className="container testimonials__container">
+      <Swiper
+        spaceBetween={30}
+        slidesPerView={1}
+        pagination={{ clickable: true }}
+        autoplay={{ delay: 3000, disableOnInteraction: false }}
+        className="swiper-container"
+      >
         {testimonials.map((testimonial, index) => (
-          <div key={index} className="testimonial__card">
-            <div className="testimonial__card-inner">
-              <div className="testimonial__card-front">
-                <img src={testimonial.image} alt={`${testimonial.name}'s Avatar`} className="testimonial__image" />
-                <h3 className="testimonial__name">{testimonial.name}</h3>
-              </div>
-              <div className="testimonial__card-back">
-                <p className="testimonial__review">{testimonial.review}</p>
-              </div>
+          <SwiperSlide key={index} className="testimonial-slide">
+            <div className="testimonial-content">
+              <img src={testimonial.image} alt={testimonial.name} className="testimonial-image" />
+              <h3 className="testimonial-name">{testimonial.name}</h3>
+              <p className="testimonial-review">{testimonial.review}</p>
             </div>
-          </div>
+          </SwiperSlide>
         ))}
-      </div>
+      </Swiper>
     </section>
   );
 };
 
 export default Testimonials;
-
-
-
-
