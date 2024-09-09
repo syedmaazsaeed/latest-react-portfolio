@@ -1,8 +1,8 @@
-/* General Portfolio Styles */
 .portfolio__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
+
 }
 
 .portfolio__item {
@@ -11,64 +11,53 @@
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
-}
 
+}
 .portfolio__item:hover {
+
     border-color: var(--color-primary-variant);
     background: transparent;
-}
 
+}
 .portfolio__item-image {
-    border-radius: 0.7rem;
-    overflow: hidden;
+     border-radius: 0.7rem;
+     overflow: hidden;
+     /* height: auto; */
 }
 
 .portfolio__item h3 {
-    margin: 1.2rem 0 2rem;
+
+    margin: 1.6rem 0 2rem;
+
 }
 
 .portfolio__item-cta {
     display: flex;
     gap: 1rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.8rem;
     justify-content: center;
-    
+
 }
 
-/* Media Queries for Different Devices */
+ /*  MEDIA QUERIES (Medium Devices) */
 
-/* For Medium Devices (Tablets) */
-@media screen and (max-width: 1024px) {
+ @media screen and (max-width: 1024px) {
+
     .portfolio__container {
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;
+
     }
 }
 
-/* For Small Devices (Mobile Phones) */
+/*  MEDIA QUERIES (Small Devices-Mobile-Phones) */
+
 @media screen and (max-width: 600px) {
-    .portfolio__container {
+
+    .portfolio__container{
         grid-template-columns: 1fr;
         gap: 1rem;
-    }
-
-    .portfolio__item h3 {
-        font-size: 1.2rem;
-    }
-
-    .portfolio__item p {
-        font-size: 0.9rem;
-        margin-bottom: 1.5rem; /* Adjust this value to create space between the text and the buttons */
-
-    }
-
-    .portfolio__item-cta {
-        flex-direction: column;
-        align-items: center;
         
     }
 }
-
-
-
 
