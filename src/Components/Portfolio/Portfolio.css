@@ -20,9 +20,9 @@
 
 }
 .portfolio__item-image {
-     border-radius: 1.5rem;
+     border-radius: 0.7rem;
      overflow: hidden;
-
+     /* height: auto; */
 }
 
 .portfolio__item h3 {
@@ -35,7 +35,7 @@
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
-    
+
 }
 
 
