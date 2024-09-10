@@ -37,17 +37,25 @@ const Testimonials = () => {
         <h2>Testimonials</h2>
 
          <div className="container testimonials__container">
-            <article className="testimonial">
+            
+            {
+              data.map(({avatar, name, review}, index) => {
+
+                return (
+                  <article key={index} className="testimonial">
                 <div className="client__avatar">
-                    <img src={avatar1} alt="Avatar 1" />             
+                    <img src={avatar}  />             
                 </div>
                 <h5 className='client__name'>
-                      Syed Maaz Saeed
+                      {name}
                     </h5>
                     <small className='client__review'>
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque porro quae vel voluptatem facilis? Temporibus a est quos cumque, tempore, recusandae ipsa ullam consequatur quaerat corrupti provident voluptatem sint sunt.
+                      {review}
                     </small>
             </article>
+                )
+              })
+            }
  
          </div>
 
