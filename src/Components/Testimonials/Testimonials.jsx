@@ -7,7 +7,7 @@ import avatar4 from '../../assets/three.jpeg';
 
 
 // import Swiper core and required modules
-import {Pagination } from 'swiper/modules';
+import {Pagination, Autoplay } from 'swiper/modules';
 
 // import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 
@@ -52,11 +52,13 @@ const Testimonials = () => {
          <Swiper className="container testimonials__container"
 
          // install Swiper modules
-      modules={[ Pagination,]}
+      modules={[ Pagination, Autoplay ]}
       // modules={[Navigation, Pagination, Scrollbar, A11y]}
       spaceBetween={40}
       slidesPerView={1}
       // navigation
+      autoplay={{ delay: 4000 }} 
+
       pagination={{ clickable: true }}
       // scrollbar={{ draggable: true }}
       // onSwiper={(swiper) => console.log(swiper)}
