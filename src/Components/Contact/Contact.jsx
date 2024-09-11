@@ -24,7 +24,7 @@ const sendEmail = (e) => {
     () => {
       toast.success('Your message has been sent successfully!', {
         position: "top-right",
-        autoClose: 5000,  // Automatically close after 5 seconds
+        autoClose: 5000,  
         hideProgressBar: false,
         closeOnClick: true,
         pauseOnHover: true,
@@ -32,7 +32,7 @@ const sendEmail = (e) => {
         progress: undefined,
         theme: "colored"
       });
-      e.target.reset();  // Reset the form fields
+      e.target.reset(); 
     },
     (error) => {
       toast.error('Failed to send the message.Try again later.', {
