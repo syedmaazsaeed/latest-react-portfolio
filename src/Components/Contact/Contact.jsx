@@ -6,7 +6,8 @@ import { BsWhatsapp } from "react-icons/bs";
 import { SiBuymeacoffee } from "react-icons/si";
 import  { useRef } from 'react';
 import emailjs from 'emailjs-com';
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
  
 
@@ -17,18 +18,35 @@ const form = useRef();
 const sendEmail = (e) => {
   e.preventDefault();
 
-  emailjs
-    .sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, {
-      publicKey: 'YOUR_PUBLIC_KEY',
-    })
-    .then(
-      () => {
-        console.log('SUCCESS!');
-      },
-      (error) => {
-        console.log('FAILED...', error.text);
-      },
-    );
+  emailjs.sendForm('service_t0hnis5', 'template_bir475p', form.current, 'B-vvFL3fc2YtmvmhG')
+  
+  .then(
+    () => {
+      toast.success('Your message has been sent successfully!', {
+        position: "top-right",
+        autoClose: 5000,  // Automatically close after 5 seconds
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "colored"
+      });
+      e.target.reset();  // Reset the form fields
+    },
+    (error) => {
+      toast.error('Failed to send the message.Try again later.', {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "colored"
+      });
+    }
+  );
 };
 
 
@@ -76,7 +94,7 @@ const sendEmail = (e) => {
           <button type='submit' className='btn btn-primary'>Send Message</button>
         </form>
       </div>
-
+      <ToastContainer />
     </section>
   )
 }
