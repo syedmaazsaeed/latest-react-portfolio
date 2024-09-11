@@ -16,7 +16,7 @@ import { SiBuymeacoffee } from "react-icons/si";
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className='footer__logo'>SyedMaaz</a>
+      <a href="#" className='footer__logo'>SyedMaazSaeed</a>
 
       <ul className='permalinks'>
         <li><a href="#">Home </a></li>
