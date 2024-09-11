@@ -17,7 +17,9 @@ const Contact = () => {
          </article>
         </div>
         {/* Contact Section Ended */}
-        <form action=""></form>
+        <form action="">
+          <h2>Password</h2>
+        </form>
       </div>
 
     </section>
