@@ -2,14 +2,36 @@ import React from 'react';
 import './Contact.css';
 import { MdOutlineMarkEmailUnread } from "react-icons/md";
 import { FaInstagram } from "react-icons/fa6";
-import { FaXTwitter } from "react-icons/fa6";
 import { BsWhatsapp } from "react-icons/bs";
-import { GrLinkedin } from "react-icons/gr";
 import { SiBuymeacoffee } from "react-icons/si";
+import  { useRef } from 'react';
+import emailjs from 'emailjs-com';
 
 
+ 
 
 const Contact = () => {
+
+const form = useRef();
+
+const sendEmail = (e) => {
+  e.preventDefault();
+
+  emailjs
+    .sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, {
+      publicKey: 'YOUR_PUBLIC_KEY',
+    })
+    .then(
+      () => {
+        console.log('SUCCESS!');
+      },
+      (error) => {
+        console.log('FAILED...', error.text);
+      },
+    );
+};
+
+
   return (
     <section id='contact'>
       <h5>Get In Touch With me</h5>
@@ -18,42 +40,28 @@ const Contact = () => {
         <div className="contact__options">
          
          <article className="contact__option">
-         <MdOutlineMarkEmailUnread />
+         <MdOutlineMarkEmailUnread className='contact__option-icon'/>
           <h4>Email</h4>
           <h5>syedmaazsaeed@gmail.com</h5>
           <a href="mailto:syedmaazsaeed@gmail.com" target="_blank" >Drop a message</a>
           
          </article>
          <article className="contact__option">
-         <GrLinkedin />
-          <h4>Linkedin</h4>
-          <h5>syedmaazsaeed</h5>
-          <a href="https://www.linkedin.com/in/syed-maaz-saeed-908718204/" target="_blank" >Drop a message</a>
-          
-         </article>
-         <article className="contact__option">
-         <FaXTwitter />
-          <h4>Twitter</h4>
-          <h5>SyedMaazSaeed</h5>
-          <a href="https://twitter.com/SyedMaazSaeed" target="_blank">Drop a message</a>
-          
-         </article>
-         <article className="contact__option">
-         <FaInstagram />
+         <FaInstagram className='contact__option-icon'/>
           <h4>Instagram</h4>
           <h5>syedmaazsaeed</h5>
           <a href="https://www.instagram.com/syedmaazsaeed/" target="_blank" >Drop a message</a>
           
          </article>
          <article className="contact__option">
-         <SiBuymeacoffee />
+         <SiBuymeacoffee className='contact__option-icon' />
           <h4>buymeacoffee</h4>
           <h5>syedmaazsaeed0</h5>
           <a href="https://buymeacoffee.com/syedmaazsaeed0" target="_blank" >Drop a message</a>
           
          </article>
          <article className="contact__option">
-         <BsWhatsapp />
+         <BsWhatsapp className='contact__option-icon'/>
           <h4>Whatsapp</h4>
           <h5>+92-310-690200-2</h5>
           <a href="https://api.whatsapp.com/send?phone=923106902002" target="_blank" >Drop a message</a>
@@ -61,11 +69,11 @@ const Contact = () => {
          </article>
         </div>
         {/* Contact Section Ended */}
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='Your Full Name' required />
           <input type="email" name="email" placeholder='Your Email' required />
           <textarea name="message" rows='7' placeholder='Your Message' required></textarea>
-          <button type='submit'></button>
+          <button type='submit' className='btn btn-primary'>Send Message</button>
         </form>
       </div>
 
