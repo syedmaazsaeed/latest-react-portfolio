@@ -1,46 +1,21 @@
-footer {
+footer{
     background: var(--color-primary);
     padding: 3rem 0;
     text-align: center;
     font-size: 1rem;
     margin-top: 7rem;
-    animation: fadeIn 1.5s ease-in-out;
-    opacity: 0;
-    animation-fill-mode: forwards;
 }
 
-/* Fade-in animation for the footer */
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-footer a {
+footer a{
     color: var(--color-bg);
-    transition: color 0.3s ease;
-}
 
-footer a:hover {
-    color: #4db5ff;
 }
-
-.footer__logo {
+.footer__logo{
     font-size: 2rem;
     font-weight: 500;
     margin-bottom: 2rem;
     display: inline-block;
-    transition: transform 0.3s ease;
-}
 
-.footer__logo:hover {
-    transform: scale(1.1);
-    color: #4db5ff;
 }
 
 .permalinks {
@@ -49,57 +24,30 @@ footer a:hover {
     justify-content: center;
     gap: 2rem;
     margin: 0 auto 3rem;
-    transition: all 0.3s ease;
-}
-
-.permalinks li {
-    transition: transform 0.3s ease;
-}
-
-.permalinks li:hover {
-    transform: translateY(-5px);
-    color: #4db5ff;
 }
 
 .footer__socials {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    margin-bottom: 4rem;
+   display: flex;
+   justify-content: center;
+   gap: 1rem;
+   margin-bottom:4rem;
 }
-
 .footer__socials a {
     background: var(--color-bg);
     color: var(--color-white);
     padding: 0.8rem;
     border-radius: 0.7rem;
     display: flex;
-    border: 1px solid transparent;
-    transition: all 0.3s ease;
+    border: 1px  solid transparent;
 }
-
 .footer__socials a:hover {
     background: transparent;
     color: var(--color-bg);
     border-color: var(--color-bg);
-    transform: scale(1.2); /* Scale effect */
-}
 
-/* Animation for hover effects on social icons */
-@keyframes bounce {
-    0%, 100% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-5px);
-    }
 }
+.footer__copyright{
 
-.footer__socials a:hover {
-    animation: bounce 0.5s ease;
-}
-
-.footer__copyright {
     margin-bottom: 4rem;
     color: var(--color-bg);
     font-weight: bold;
@@ -107,6 +55,7 @@ footer a:hover {
 
 /* Media Queries for Small Devices (max-width: 600px) */
 @media screen and (max-width: 600px) {
+
     .permalinks {
         flex-direction: column;
         gap: 1.5rem;
@@ -114,18 +63,18 @@ footer a:hover {
 
     .footer__socials {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: wrap;  
         justify-content: center;
         gap: 1rem;
         margin-bottom: 1.6rem;
     }
 
     .footer__socials a {
-        padding: 0.8rem;
-        font-size: 1rem;
+        padding: 0.8rem;  
+        font-size: 1rem;  
     }
-}
 
+}
 
 
 
