@@ -151,3 +151,37 @@
     }
     
 }
+/* Keyframes for the swing effect */
+@keyframes swing {
+    0% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(-10deg);
+    }
+    50% {
+      transform: rotate(0deg);
+    }
+    75% {
+      transform: rotate(10deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  
+  /* Button styling */
+  .btn {
+    display: inline-block;
+    background-color: var(--color-primary);
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    animation: swing 2s infinite ease-in-out; /* Apply the swing animation continuously */
+  }
+  
