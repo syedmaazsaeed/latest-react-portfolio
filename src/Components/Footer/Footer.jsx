@@ -99,7 +99,7 @@ const Footer = () => {
       </div>
 
       <p className="copyright">
-        &copy;2024 Syed Maaz Saeed | All Rights Reserved
+        &copy;2024 Syed Maaz Saeed | All Rights Reserved.
       </p>
     </motion.footer>
   );
