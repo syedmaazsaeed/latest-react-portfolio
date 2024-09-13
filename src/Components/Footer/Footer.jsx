@@ -145,3 +145,48 @@ const App = () => {
 }
 
 export default App;
+
+
+
+// src/Components/TestimonialsCarousel/TestimonialsCarousel.jsx
+import React from 'react';
+import Slider from 'react-slick';
+import './TestimonialsCarousel.css';
+
+const testimonials = [
+  { name: 'John Doe', feedback: 'Great work!', company: 'Company A' },
+  { name: 'Jane Smith', feedback: 'Amazing experience!', company: 'Company B' },
+  // Add more testimonials
+];
+
+const TestimonialsCarousel = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
+
+  return (
+    <Slider {...settings}>
+      {testimonials.map((testimony, index) => (
+        <div key={index} className="testimonial-slide">
+          <p>{testimony.feedback}</p>
+          <h4>{testimony.name}</h4>
+          <small>{testimony.company}</small>
+        </div>
+      ))}
+    </Slider>
+  );
+};
+
+export default TestimonialsCarousel;
+
+
+2. Project Showcases with Live Demos
+Add interactive project showcases with live demos or previews. This can be done by integrating interactive iframes or modals with live demos.
+
+Code Example for a Modal Project Showcase:
+
+jsx
