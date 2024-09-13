@@ -6,7 +6,7 @@ const ScrollProgressBar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      const scrollTop = window.scrollY || document.documentElement.scrollTop;
       const scrollHeight = document.documentElement.scrollHeight;
       const clientHeight = document.documentElement.clientHeight;
       const scrolled = (scrollTop / (scrollHeight - clientHeight)) * 100;
