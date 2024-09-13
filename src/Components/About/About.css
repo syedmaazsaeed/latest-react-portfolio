@@ -152,4 +152,29 @@
     
 }
 
+.btn-primary {
+    position: relative;
+    background: var(--color-primary);
+    color: var(--color-bg);
+    overflow: hidden;
+  }
+  
+  .btn-primary::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: rgba(255, 255, 255, 0.2);
+    transform: rotate(45deg);
+    transition: all 0.5s;
+    z-index: 0;
+  }
+  
+  .btn-primary:hover::before {
+    top: 0;
+    left: 0;
+  }
+  
   
