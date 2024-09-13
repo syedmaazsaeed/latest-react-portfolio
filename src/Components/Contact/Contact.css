@@ -83,3 +83,34 @@ input, textarea {
         }
 
     }
+
+
+    
+@keyframes swing {
+    0% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(-15deg);
+    }
+    50% {
+      transform: rotate(15deg);
+    }
+    75% {
+      transform: rotate(-10deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  
+  .btn-swing {
+    background: var(--color-primary);
+    color: var(--color-bg);
+    animation: swing 2s ease-in-out infinite; 
+    display: inline-block;
+}
+
+.btn-swing:hover {
+    animation-play-state: paused; 
+}
