@@ -71,7 +71,7 @@ const About = () => {
           I am currently delving deep into the field of software engineering at the Islamia University of Bahawalpur, where I am eager to explore the new technological era and stay consistently updated to remain at the forefront of innovation and development.
        </p>
 
-       <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+       <a href="#contact" className='btn btn-primary'>Let's Connect</a>
         </div>
       </div>
 
