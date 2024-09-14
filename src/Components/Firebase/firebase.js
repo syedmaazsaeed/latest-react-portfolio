@@ -38,3 +38,4 @@ export const getDataFromFirestore = async (collection, docId) => {
     return null;
   }
 };
+

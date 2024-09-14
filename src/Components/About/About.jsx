@@ -35,6 +35,7 @@ useEffect(() => {
       console.log('User data already exists. Skipping data addition.');
     }
   };
+  
 
   // Retrieving Data from Firestore
   const fetchUserData = async () => {
