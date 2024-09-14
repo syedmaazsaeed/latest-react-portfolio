@@ -28,37 +28,37 @@ const Footer = () => {
       <div className="footer__text__container">
         <ul className="social-icon">
           <li className="social-icon__item">
-            <a className="social-icon__link" href="https://facebook.com">
+            <a className="social-icon__link" href="https://www.facebook.com/syedmaazsaeed/" target='_blank'>
               <FaFacebook />
             </a>
           </li>
           <li className="social-icon__item">
-            <a className="social-icon__link" href="https://instagram.com">
+            <a className="social-icon__link" href="https://www.instagram.com/syedmaazsaeed/" target='_blank'>
               <FaInstagram />
             </a>
           </li>
           <li className="social-icon__item">
-            <a className="social-icon__link" href="https://twitter.com">
+            <a className="social-icon__link" href="https://x.com/SyedMaazSaeed" target='_blank'>
               <FaSquareXTwitter />
             </a>
           </li>
           <li className="social-icon__item">
-            <a className="social-icon__link" href="https://github.com">
+            <a className="social-icon__link" href="https://github.com/syedmaazsaeed" target='_blank'>
               <FaGithub />
             </a>
           </li>
           <li className="social-icon__item">
-            <a className="social-icon__link" href="https://linkedin.com">
+            <a className="social-icon__link" href="https://www.linkedin.com/in/syed-maaz-saeed-908718204/" target='_blank'>
               <IoLogoLinkedin />
             </a>
           </li>
           <li className="social-icon__item">
-            <a className="social-icon__link" href="https://fiverr.com">
+            <a className="social-icon__link" href="https://www.fiverr.com/maaz878/buying?source=avatar_menu_profile" target='_blank'>
               <SiFiverr />
             </a>
           </li>
           <li className="social-icon__item">
-            <a className="social-icon__link" href="https://buymeacoffee.com/syedmaazsaeed0">
+            <a className="social-icon__link" href="https://buymeacoffee.com/syedmaazsaeed0" target='_blank'>
               <SiBuymeacoffee />
             </a>
           </li>
