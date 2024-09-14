@@ -9,7 +9,48 @@ import { FaAward } from "react-icons/fa6";
 import { HiUsers } from "react-icons/hi2";
 import { FaCircleCheck } from "react-icons/fa6";
 
+import  { useEffect } from 'react';
+import { addDataToFirestore, getDataFromFirestore } from '../../Components/Firebase/firebase.js';
+
+
 const About = () => {
+
+// Initialize userData state
+const [userData, setUserData] = useState(null);
+
+useEffect(() => {
+  // Function to add data only if it doesn't exist
+  const addUserData = async () => {
+    const fetchedData = await getDataFromFirestore('users', 'user1');
+    
+    if (!fetchedData) {
+      // If no data exists, add initial data
+      const data = {
+        name: 'Syed Maaz Saeed',
+        experience: 'MERN Stack Developer',
+        location: 'Bahawalpur, Pakistan',
+      };
+      await addDataToFirestore('users', 'user1', data);
+    } else {
+      console.log('User data already exists. Skipping data addition.');
+    }
+  };
+
+  // Retrieving Data from Firestore
+  const fetchUserData = async () => {
+    const fetchedData = await getDataFromFirestore('users', 'user1');
+    setUserData(fetchedData); // Set fetched data to state
+  };
+
+  // First check if data exists, then add if necessary
+  addUserData();
+
+  // Call the function to get data
+  fetchUserData();
+
+}, []);
+  
+  
   // { // Array of images }
   const images = [ME, ME2, ME3, ME4];
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -44,21 +85,24 @@ const About = () => {
         <article className='about__card'>
         <FaAward  className='about__icon'/>
           <h5>Experience</h5>
-          <small>2+ Years of Hands-On Coding</small>
+          {/* <small>2+ Years of Hands-On Coding</small> */}
+          <small>{userData?.Experience || 'Loading...'}</small>
 
 
         </article>
         <article className='about__card'>
         <HiUsers className='about__icon'/>
           <h5>Clients</h5>
-          <small>Global Network of Satisfied Clients</small>
+          {/* <small>Global Network of Satisfied Clients</small> */}
+          <small>{userData?.Clients || 'Loading...'}</small>
 
 
         </article>
         <article className='about__card'>
         <FaCircleCheck className='about__icon'/>
           <h5>Delivered Projects</h5>
-          <small>Global Project Completion</small>
+          {/* <small>Global Project Completion</small> */}
+          <small>{userData?.Delivered_Projects || 'Loading...'}</small>
 
 
         </article>
