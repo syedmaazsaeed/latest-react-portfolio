@@ -14,6 +14,7 @@ import ScrollProgressBar from './Components/ScrollProgressbar/ScrollProgressBar'
 const App = () => {
   return (
     <>
+      
     <ScrollProgressBar />
     <Header />
    <Nav />
@@ -24,7 +25,6 @@ const App = () => {
    <Testimonials />
    <Contact />
    <Footer />
-
     </>
   )
 }
