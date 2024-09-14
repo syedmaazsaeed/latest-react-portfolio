@@ -29,9 +29,16 @@
 }
 
 .contact__option-icon{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
 
+}
+.animated-icons {
+    height: 50px;
+    width: 50px;
 }
 
 .contact__option a{

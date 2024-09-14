@@ -1,8 +1,9 @@
 import React from 'react';
 import './Contact.css';
-import { MdOutlineMarkEmailUnread } from "react-icons/md";
-import { FaInstagram } from "react-icons/fa6";
-import { BsWhatsapp } from "react-icons/bs";
+import Lottie from 'lottie-react';
+import instagramAnimationLogo from '../../assets/instagram.json';
+import whatsappAnimationLogo from '../../assets/Animation - 1726300373456.json'; 
+import emailAnimationLogo from '../../assets/gmail.json';
 import  { useRef } from 'react';
 import emailjs from 'emailjs-com';
 import { ToastContainer, toast } from 'react-toastify';
@@ -57,24 +58,31 @@ const sendEmail = (e) => {
         <div className="contact__options">
          
          <article className="contact__option">
-         <MdOutlineMarkEmailUnread className='contact__option-icon'/>
+         <div className='contact__option-icon'>
+              <Lottie className='animated-icons' animationData={emailAnimationLogo} loop={true} />
+            </div>
           <h4>Email</h4>
           <h5>syedmaazsaeed@gmail.com</h5>
-          <a href="mailto:syedmaazsaeed@gmail.com" target="_blank" >Drop a message</a>
+          <a href="mailto:syedmaazsaeed@gmail.com" target="_blank" >Reach Me by Email</a>
           
          </article>
          <article className="contact__option">
-         <FaInstagram className='contact__option-icon'/>
+         <div className='contact__option-icon'>
+              <Lottie className='animated-icons' animationData={instagramAnimationLogo} loop={true} />
+            </div>
           <h4>Instagram</h4>
           <h5>syedmaazsaeed</h5>
-          <a href="https://www.instagram.com/syedmaazsaeed/" target="_blank" >Drop a message</a>
+          <a href="https://www.instagram.com/syedmaazsaeed/" target="_blank" >Engage on Instagram</a>
           
          </article>
          <article className="contact__option">
-         <BsWhatsapp className='contact__option-icon'/>
-          <h4>Whatsapp</h4>
+         <div className='contact__option-icon'>
+              <Lottie className='animated-icons' animationData={whatsappAnimationLogo} loop={true} />
+            </div>
+
+          <h4>Whatsapp</h4> 
           <h5>+92-310-690200-2</h5>
-          <a href="https://api.whatsapp.com/send?phone=923106902002" target="_blank" >Drop a message</a>
+          <a href="https://api.whatsapp.com/send?phone=923106902002" target="_blank" >Chat with Me</a>
           
          </article>
         </div>
