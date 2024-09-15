@@ -1,15 +1,14 @@
-// src/firebase.js
 import { initializeApp } from 'firebase/app';
 import { getFirestore, doc, setDoc, getDoc } from 'firebase/firestore';
 
-// Firebase configuration (Already initialized)
+// Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDwyk9HPLiLJd5gcxe5JzQzQTcUbXO4bQw",
-  authDomain: "react-devfolio.firebaseapp.com",
-  projectId: "react-devfolio",
-  storageBucket: "react-devfolio.appspot.com",
-  messagingSenderId: "1041234643858",
-  appId: "1:1041234643858:web:8c85425d3e5fe639460f4b",
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_FIREBASE_APP_ID,
 };
 
 // Initialize Firebase and Firestore
@@ -39,3 +38,7 @@ export const getDataFromFirestore = async (collection, docId) => {
   }
 };
 
+// Example sign-in function for Firebase Auth
+export const signInUser = async (email, password) => {
+  // Your sign-in logic here
+};
