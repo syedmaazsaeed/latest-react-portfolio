@@ -23,7 +23,7 @@ const data = [
   },
   {avatar: avatar2,
     name: 'Ali Qureshi',
-    review: 'Syed Maaz Saeed is a highly skilled Front-End Developer and React-Redux Developer. His proficiency with MERN stack services, frontend programming, React, and Redux has been invaluable to the success of our projects. His dedication to delivering high-quality solutions and his ability to work effectively in collaborative environments make him a valuable asset to any team.'
+    review: 'Syed Maaz Saeed is a highly skilled Front-End Developer and React-Redux Developer. His proficiency with MERN stack services, frontend programming, React, and Redux has been invaluable to the success of our projects.'
   },
   {avatar: avatar3,
     name: 'Ich bin silwa',
