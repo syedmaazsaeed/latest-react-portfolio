@@ -1,17 +1,39 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SyedMaazSaeed</title>
+
+    <!-- Favicon link -->
+    <link rel="icon" sizes="180x180" href="%PUBLIC_URL%/favicon.png">
     <link rel="stylesheet" href="%PUBLIC_URL%/styles.css">
+    
+    <!-- JavaScript Logic to  dynamically change the title -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            
+            const titles = [
+                "SyedMaazSaeed",
+                "Developer",
+                "Welcome Back",
+                "MERN Stack Dev",
+                "Software Engineer",
+            ];
+            let index = 0;
+
+            function changeTitle() {
+                document.title = titles[index];
+                index = (index + 1) % titles.length;
+            }
+
+            // Change title every 2 seconds
+            setInterval(changeTitle, 2000);
+        });
+    </script>
 </head>
 
 <body>
-    
-    <div id="root">
-        
-    </div>
+    <div id="root"></div>
 </body>
 </html>
