@@ -1,9 +1,11 @@
 import React from 'react'
 import './Testimonials.css' ;
-import avatar1 from '../../assets/me.jpg';
-import avatar2 from '../../assets/three.jpeg';
-import avatar3 from '../../assets/three.jpeg';
-import avatar4 from '../../assets/three.jpeg';
+import avatar1 from '../../assets/avatar1.svg';
+import avatar2 from '../../assets/avatar2.svg'
+import avatar3 from '../../assets/avatar3.png';
+import avatar4 from '../../assets/avatar4.png';
+import avatar5 from '../../assets/avatar5.png';
+import avatar6 from '../../assets/avatar6.png';
 
 import {Pagination, Autoplay } from 'swiper/modules';
 
@@ -19,20 +21,24 @@ const data = [
     name: 'James Sunaty',
     review: ' Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque porro quae vel voluptatem facilis? Temporibus a est quos cumque, tempore, recusandae ipsa ullam consequatur quaerat corrupti provident voluptatem sint sunt.'
   },
-  {avatar: avatar1,
+  {avatar: avatar2,
     name: 'Tonny James',
     review: ' Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque porro quae vel voluptatem facilis? Temporibus a est quos cumque, tempore, recusandae ipsa ullam consequatur quaerat corrupti provident voluptatem sint sunt.'
   },
-  {avatar: avatar1,
+  {avatar: avatar3,
     name: 'Ich bin silwa',
     review: ' Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque porro quae vel voluptatem facilis? Temporibus a est quos cumque, tempore, recusandae ipsa ullam consequatur quaerat corrupti provident voluptatem sint sunt.'
   },
-  {avatar: avatar1,
-    name: 'Hashir hussain',
+  {avatar: avatar4,
+    name: 'Ali Singh',
     review: ' Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque porro quae vel voluptatem facilis? Temporibus a est quos cumque, tempore, recusandae ipsa ullam consequatur quaerat corrupti provident voluptatem sint sunt.'
   },
-  {avatar: avatar1,
-    name: 'Ali Singh',
+  {avatar: avatar5,
+    name: 'John Mehta',
+    review: ' Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque porro quae vel voluptatem facilis? Temporibus a est quos cumque, tempore, recusandae ipsa ullam consequatur quaerat corrupti provident voluptatem sint sunt.'
+  },
+  {avatar: avatar6,
+    name: 'Tony james',
     review: ' Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque porro quae vel voluptatem facilis? Temporibus a est quos cumque, tempore, recusandae ipsa ullam consequatur quaerat corrupti provident voluptatem sint sunt.'
   },
 
