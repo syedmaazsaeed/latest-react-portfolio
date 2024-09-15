@@ -75,7 +75,7 @@ useEffect(() => {
           
         <div className="about__me-image" onMouseEnter={handleImageHover}>
 
-        <img src={images[currentImageIndex]} alt="About Image" />
+        <img src={images[currentImageIndex]} alt="Syed Maaz Saeed" />
 
 
           </div>
