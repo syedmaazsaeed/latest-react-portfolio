@@ -28,37 +28,37 @@ const Footer = () => {
       <div className="footer__text__container">
         <ul className="social-icon">
           <li className="social-icon__item">
-            <a className="social-icon__link" href="https://www.facebook.com/syedmaazsaeed/" target='_blank'>
+            <a className="social-icon__link" href="https://www.facebook.com/syedmaazsaeed/" target='_blank' rel="noreferrer">
               <FaFacebook />
             </a>
           </li>
           <li className="social-icon__item">
-            <a className="social-icon__link" href="https://www.instagram.com/syedmaazsaeed/" target='_blank'>
+            <a className="social-icon__link" href="https://www.instagram.com/syedmaazsaeed/" target='_blank' rel="noreferrer">
               <FaInstagram />
             </a>
           </li>
           <li className="social-icon__item">
-            <a className="social-icon__link" href="https://x.com/SyedMaazSaeed" target='_blank'>
+            <a className="social-icon__link" href="https://x.com/SyedMaazSaeed" target='_blank' rel="noreferrer">
               <FaSquareXTwitter />
             </a>
           </li>
           <li className="social-icon__item">
-            <a className="social-icon__link" href="https://github.com/syedmaazsaeed" target='_blank'>
+            <a className="social-icon__link" href="https://github.com/syedmaazsaeed" target='_blank' rel="noreferrer">
               <FaGithub />
             </a>
           </li>
           <li className="social-icon__item">
-            <a className="social-icon__link" href="https://www.linkedin.com/in/syed-maaz-saeed-908718204/" target='_blank'>
+            <a className="social-icon__link" href="https://www.linkedin.com/in/syed-maaz-saeed-908718204/" target='_blank' rel="noreferrer">
               <IoLogoLinkedin />
             </a>
           </li>
           <li className="social-icon__item">
-            <a className="social-icon__link" href="https://www.fiverr.com/maaz878/buying?source=avatar_menu_profile" target='_blank'>
+            <a className="social-icon__link" href="https://www.fiverr.com/maaz878/buying?source=avatar_menu_profile" target='_blank' rel="noreferrer">
               <SiFiverr />
             </a>
           </li>
           <li className="social-icon__item">
-            <a className="social-icon__link" href="https://buymeacoffee.com/syedmaazsaeed0" target='_blank'>
+            <a className="social-icon__link" href="https://buymeacoffee.com/syedmaazsaeed0" target='_blank' rel="noreferrer">
               <SiBuymeacoffee />
             </a>
           </li>

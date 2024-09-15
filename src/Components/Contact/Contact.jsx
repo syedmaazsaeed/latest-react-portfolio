@@ -63,7 +63,7 @@ const sendEmail = (e) => {
             </div>
           <h4>Email</h4>
           <h5>syedmaazsaeed@gmail.com</h5>
-          <a href="mailto:syedmaazsaeed@gmail.com" target="_blank" >Reach Me by Email</a>
+          <a href="mailto:syedmaazsaeed@gmail.com" target="_blank" rel="noreferrer" >Reach Me by Email</a>
           
          </article>
          <article className="contact__option">
@@ -72,7 +72,7 @@ const sendEmail = (e) => {
             </div>
           <h4>Instagram</h4>
           <h5>syedmaazsaeed</h5>
-          <a href="https://www.instagram.com/syedmaazsaeed/" target="_blank" >Engage on Instagram</a>
+          <a href="https://www.instagram.com/syedmaazsaeed/" target="_blank" rel="noreferrer" >Engage on Instagram</a>
           
          </article>
          <article className="contact__option">
@@ -82,7 +82,7 @@ const sendEmail = (e) => {
 
           <h4>Whatsapp</h4> 
           <h5>+92-310-690200-2</h5>
-          <a href="https://api.whatsapp.com/send?phone=923106902002" target="_blank" >Chat with Me</a>
+          <a href="https://api.whatsapp.com/send?phone=923106902002" target="_blank" rel="noreferrer" >Chat with Me</a>
           
          </article>
         </div>
