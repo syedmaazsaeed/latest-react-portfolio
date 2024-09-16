@@ -82,7 +82,7 @@ Your app should now be running at http://localhost:3000.
 
 🌌 Live Preview
 
-Explore the live version of the portfolio:
+Explore the live version of the portfolio: https://syedmaazsaeed.tech/
 
 🔗 Syed Maaz Saeed's Portfolio
 
