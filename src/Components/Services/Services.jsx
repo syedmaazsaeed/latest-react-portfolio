@@ -1,8 +1,21 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './Services.css';
 import { IoShieldCheckmarkSharp } from "react-icons/io5";
+import AOS from 'aos';
+import 'aos/dist/aos.css';  
 
 const Services = () => {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+      easing: 'ease-in-out',
+      offset: 300,
+    });
+    AOS.refresh(); 
+}, []);
+
   return (
     <section id='services'>
       <h5>What I Offer</h5>
@@ -12,7 +25,7 @@ const Services = () => {
       <div className="container services__container">
 
         {/* Programmer Service */}
-        <article className="service">
+        <article className="service" data-aos="fade-up">
           <div className="service__head">
             <h3>Programmer</h3>
           </div>
@@ -37,7 +50,7 @@ const Services = () => {
         </article>
 
         {/* Web Development Service */}
-        <article className="service">
+        <article className="service"  data-aos="fade-down">
           <div className="service__head">
             <h3>Web Development</h3>
           </div>
@@ -63,7 +76,7 @@ const Services = () => {
         </article>
 
         {/* Software Development Service */}
-        <article className="service">
+        <article className="service" data-aos="fade-up">
           <div className="service__head">
             <h3>Software Development</h3>
           </div>
@@ -84,7 +97,7 @@ const Services = () => {
         </article>
 
         {/* AI and Machine Learning Service */}
-        <article className="service">
+        <article className="service" data-aos="fade-up">
           <div className="service__head">
             <h3>AI & Machine Learning</h3>
           </div>

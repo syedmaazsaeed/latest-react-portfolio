@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './Contact.css';
 import Lottie from 'lottie-react';
 import instagramAnimationLogo from '../../assets/instagram.json';
@@ -8,10 +8,23 @@ import  { useRef } from 'react';
 import emailjs from 'emailjs-com';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';  
+
 
  
 
 const Contact = () => {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+      easing: 'ease-in-out',
+      offset: 300,
+    });
+    AOS.refresh(); 
+}, []);
 
 const form = useRef();
 
@@ -55,7 +68,9 @@ const sendEmail = (e) => {
       <h5>Get In Touch With me</h5>
       <h2>Contact me</h2>
       <div className="container contact__container">
-        <div className="contact__options">
+        <div className="contact__options" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
          
          <article className="contact__option">
          <div className='contact__option-icon'>
@@ -87,7 +102,7 @@ const sendEmail = (e) => {
          </article>
         </div>
         {/* Contact Section Ended */}
-        <form ref={form} onSubmit={sendEmail}>
+        <form ref={form} onSubmit={sendEmail} data-aos="fade-left" data-aos-offset="500" data-aos-duration="500">
           <input type="text" name='name' placeholder='Your Full Name' required />
           <input type="email" name="email" placeholder='Your Email' required />
           <textarea name="message" rows='7' placeholder='Your Message' required></textarea>
