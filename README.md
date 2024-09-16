@@ -2,7 +2,7 @@ Syed Maaz Saeed's Portfolio 🚀
 
 Welcome to my world of innovation and creativity, where technology, design, and development come together to create engaging digital experiences. This portfolio showcases my journey as a Full Stack Developer, highlighting my skills, projects, and what I can bring to your next project!
 
-🌟 Features
+🌟 <h1>Features </h1>
 
 Interactive Home: A dynamic landing page with rotating titles to introduce you to my world of development.
 
@@ -26,23 +26,33 @@ Modern and Responsive Design: Optimized for both desktop and mobile devices to e
 Frontend:
 
 React.js
+
 React Icons
+
 Framer Motion (for animations)
+
 Lottie React (for interactive animations)
+
 React Toastify (for notifications)
+
 Swiper (for slides and carousels)
+
 React Slick (for smooth scrolling and carousels)
+
 CSS3 (using custom variables and media queries for responsiveness)
+
 
 Backend & Database:
 
 Firebase Firestore (for real-time data management)
+
 EmailJS (for contact form functionality)
 
 
 Additional Libraries:
 
 Firebase (for authentication and Firestore)
+
 Chart.js (for rendering beautiful charts and graphs)
 
 🚀 Getting Started
@@ -68,10 +78,15 @@ Create a .env file in the root directory and add the following details:
 
 
 REACT_APP_FIREBASE_API_KEY=your_api_key
+
 REACT_APP_FIREBASE_AUTH_DOMAIN=your_auth_domain
+
 REACT_APP_FIREBASE_PROJECT_ID=your_project_id
+
 REACT_APP_FIREBASE_STORAGE_BUCKET=your_storage_bucket
+
 REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+
 REACT_APP_FIREBASE_APP_ID=your_app_id
 
 Start the development server:
