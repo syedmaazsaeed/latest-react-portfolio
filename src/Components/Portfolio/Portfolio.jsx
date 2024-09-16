@@ -19,7 +19,8 @@ const data = [
       id: 1,
       image: Github,
       title: 'Github-CodeSource-FullStack-App',
-      demo: 'https://syedmaasaeed.tech/'
+      github: 'https://github.com/syedmaazsaeed/Github-CodeSource-FullStack-App',
+      demo: 'https://github.com/syedmaazsaeed/Github-CodeSource-FullStack-App'
 
 
    },
@@ -27,8 +28,8 @@ const data = [
       id: 2,
       image: WeatherApp,
       title: 'ForecastFusion-Weather-App',
-      github: 'https://github.com',
-      demo: 'https://syedmaasaeed.tech/'
+      github: 'https://github.com/syedmaazsaeed/ForecastFusion-Weather-App',
+      demo: 'https://forecastfusion-app.netlify.app/'
 
 
    },
@@ -36,7 +37,8 @@ const data = [
       id: 3,
       image: NoteVault,
       title: 'NoteVaultPro-MernApp',
-      demo: 'https://syedmaasaeed.tech/'
+      github:'https://github.com/syedmaazsaeed/NoteVaultPro-MernApp',
+      demo: 'https://inotebookstore-app.netlify.app/'
 
 
    },
@@ -44,8 +46,8 @@ const data = [
       id: 4,
       image: NewsPulse,
       title: 'React-NewsPulse-App',
-      github: 'https://github.com',
-      demo: 'https://syedmaasaeed.tech/'
+      github: 'https://github.com/syedmaazsaeed/React-NewsPulse-App',
+      demo: 'https://github.com/syedmaazsaeed/React-NewsPulse-App'
 
 
    },
@@ -53,8 +55,8 @@ const data = [
       id: 5,
       image: MovieApp,
       title: 'React-Movie-Search',
-      github: 'https://github.com',
-      demo: 'https://syedmaasaeed.tech/'
+      github: 'https://github.com/syedmaazsaeed/React-Movie-Search',
+      demo: 'https://github.com/syedmaazsaeed/React-Movie-Search'
 
 
    },
@@ -62,8 +64,8 @@ const data = [
       id: 6,
       image: TextWizard,
       title: 'ReactJS-WordCounter',
-      github: 'https://github.com',
-      demo: 'https://syedmaasaeed.tech/'
+      github: 'https://github.com/syedmaazsaeed/ReactJS-WordCounter',
+      demo: 'https://mytextwizard.netlify.app/'
 
 
    },
@@ -71,8 +73,8 @@ const data = [
       id: 7,
       image: EcommerceStore,
       title: 'EcommerceShopifyStore-reactApp',
-      github: 'https://github.com',
-      demo: 'https://syedmaasaeed.tech/'
+      github: 'https://github.com/syedmaazsaeed/EcommerceShopifyStore-reactApp',
+      demo: 'https://github.com/syedmaazsaeed/EcommerceShopifyStore-reactApp'
 
 
    },
@@ -80,17 +82,17 @@ const data = [
       id: 8,
       image: TechfolioReact,
       title: 'Techfolio-React ',
-      github: 'https://github.com',
-      demo: 'https://syedmaasaeed.tech/'
+      github: 'https://github.com/syedmaazsaeed/Techfolio-React',
+      demo: 'https://github.com/syedmaazsaeed/Techfolio-React'
 
 
    },
    {
       id: 9,
       image: SimpleResume,
-      title: 'Github-CodeSource-FullStack-App',
-      github: 'https://github.com',
-      demo: 'https://syedmaasaeed.tech/'
+      title: 'Developer Portfolio',
+      github: 'https://github.com/syedmaazsaeed/tech-portfolio',
+      demo: 'https://syedmaazsaeed-portfolio.netlify.app/'
 
 
    },
