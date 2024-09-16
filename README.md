@@ -130,8 +130,11 @@ And upload the build directory to your preferred hosting platform (like Vercel, 
 Have a project or idea in mind? Let’s collaborate and create something great together.
 
 📧 Email: syedmaazsaeed@gmail.com
+
 🌐 LinkedIn: Syed Maaz Saeed
+
 🐦 Twitter: @SyedMaazSaeed
+
 🔗 GitHub: Syed Maaz Saeed's GitHub
 
 🌟 Ready to Contribute?
