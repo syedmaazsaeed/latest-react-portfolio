@@ -94,7 +94,7 @@ header {
 @media screen and (max-width: 600px) {
     header {
         height: 100vh;
-        /* padding-top: 7rem; */
+        
     }
     .header__socials, .scroll__down {
         display: none;
@@ -113,7 +113,7 @@ header {
 @media only screen and (min-width: 428px) and (max-width: 432px) {
     header {
         height: 100vh;
-        /* padding-top: 7rem;  */
+        
     }
     .header__container {
         padding: 0 1.5rem;
