@@ -19,7 +19,7 @@ Contact Me: Multiple channels for collaboration—email, social media, and more.
 Real-Time Firebase Integration: Stay connected with real-time updates via Firebase Firestore, where you can leave feedback, comments, or inquiries.
 
 Scroll Progress Bar: Visual cue to track your progress while browsing the portfolio.
-Modern and Responsive Design: Optimized for both desktop and mobile devices to ensure a seamless user experience.
+
 
 <h1>🛠️ Technologies Used</h1>
 
