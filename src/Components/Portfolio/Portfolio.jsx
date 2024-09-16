@@ -9,7 +9,7 @@ import TextWizard from '../../assets/textwizard.png';
 import EcommerceStore from '../../assets/ecommerceStore.jpg';
 import TechfolioReact from '../../assets/react-techfolio.png';
 import SimpleResume from '../../assets/resume.png';
-// import HealthCareSystem from '../../assets/HealthCareSystem.png';
+import HealthCareSystem from '../../assets/HealthCareSystem.png';
 
 
 
@@ -87,14 +87,14 @@ const data = [
       demo: 'https://syedmaazsaeed-portfolio.netlify.app/',
       category: 'Front-End'
    },
-   // {
-   //    id: 10,
-   //    image: HealthCareSystem,
-   //    title: 'HealthEase-System',
-   //    github: 'https://github.com/syedmaazsaeed/HealthEase-System',
-   //    demo: '#',
-   //    category: 'C# Windows App'
-   // },
+   {
+      id: 10,
+      image: HealthCareSystem,
+      title: 'HealthEase-System',
+      github: 'https://github.com/syedmaazsaeed/HealthEase-System',
+      demo: '#',
+      category: 'C# Windows App'
+   },
 ]
 
 
@@ -126,8 +126,8 @@ const Portfolio = () => {
           <button onClick={() => handleFilterClick('All')} className={filter === 'All' ? 'active' : ''}>All</button>
           <button onClick={() => handleFilterClick('Full Stack MERN Apps')} className={filter === 'Full Stack MERN Apps' ? 'active' : ''}>Full Stack MERN Apps</button>
           <button onClick={() => handleFilterClick('Front-End')} className={filter === 'Front-End' ? 'active' : ''}>Frontend</button>
-          {/* <button onClick={() => handleFilterClick('C# Windows App')} className={filter === 'C# Windows App' ? 'active' : ''}>C# Windows App</button> */}
-          {/* Add more buttons as needed */}
+          <button onClick={() => handleFilterClick('C# Windows App')} className={filter === 'C# Windows App' ? 'active' : ''}>C# Windows App</button>
+        
        </div>
 
        {/* Portfolio Items */}
