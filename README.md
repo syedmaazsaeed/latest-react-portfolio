@@ -141,9 +141,13 @@ Have a project or idea in mind? Let’s collaborate and create something great t
 If you'd like to contribute, follow these steps:
 
 Fork the repository.
+
 Create a new branch (git checkout -b feature-branch).
+
 Make your changes and commit them.
+
 Push to the branch (git push origin feature-branch).
+
 Open a pull request.
 
 
