@@ -29,31 +29,31 @@ React.js
 
 React Icons
 
-Framer Motion (for animations)
+Framer Motion (Animations)
 
-Lottie React (for interactive animations)
+Lottie React (Interactive animations)
 
-React Toastify (for notifications)
+React Toastify (Notifications)
 
-Swiper (for slides and carousels)
+Swiper (Slides and carousels)
 
-React Slick (for smooth scrolling and carousels)
+React Slick (Smooth scrolling and carousels)
 
 CSS3 (using custom variables and media queries for responsiveness)
 
 
 <h2>Backend & Database:</h2>
 
-Firebase Firestore (for real-time data management)
+Firebase Firestore Database (Real-time data management)
 
-EmailJS (for contact form functionality)
+EmailJS (Contact form functionality)
 
 
 <h2>Additional Libraries:</h2>
 
-Firebase (for authentication and Firestore)
+Firebase (Authentication and Firestore)
 
-Chart.js (for rendering beautiful charts and graphs)
+Chart.js (Rendering beautiful charts and graphs)
 
 <h1>🚀 Getting Started</h1>
 
