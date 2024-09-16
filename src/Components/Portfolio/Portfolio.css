@@ -39,6 +39,32 @@
 
 }
 
+
+
+.portfolio__filters {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.portfolio__filters button {
+    background-color: var(--color-bg-variant);
+    color: var(--color-primary);
+    border: none;
+    padding: 0.8rem 1.5rem;
+    margin: 0 0.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.portfolio__filters button:hover,
+.portfolio__filters button.active {
+    background-color: var(--color-primary);
+    color: #fff;
+}
+
+
+
  /*  MEDIA QUERIES (Medium Devices) */
 
  @media screen and (max-width: 1024px) {
@@ -59,3 +85,7 @@
         gap: 1rem; 
     }
 }
+
+
+
+
