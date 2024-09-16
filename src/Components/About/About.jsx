@@ -12,25 +12,14 @@ import { FaCircleCheck } from "react-icons/fa6";
 import  { useEffect } from 'react';
 import { addDataToFirestore, getDataFromFirestore } from '../../Components/Firebase/firebase.js';
 
-import AOS from 'aos';
-import 'aos/dist/aos.css';  
+ 
 
 
   
 
 const About = () => {
 
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-      once: true,
-      easing: 'ease-in-out',
-      offset: 300,
-    });
-    AOS.refresh(); 
-}, []);
-
-
+  
 
 // Initialize userData state
 const [userData, setUserData] = useState(null);
@@ -88,9 +77,7 @@ useEffect(() => {
       <h2>My Journey</h2>
      
       <div className="container about__container">
-        <div className="about__me" data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">
+        <div className="about__me">
           
         <div className="about__me-image" onMouseEnter={handleImageHover}>
 
@@ -100,7 +87,7 @@ useEffect(() => {
           </div>
         </div>
 
-        <div className="about__content" data-aos="fade-left" data-aos-offset="500" data-aos-duration="500">
+        <div className="about__content">
        <div className="about__cards">
         <article className='about__card'>
         <FaAward  className='about__icon'/>
