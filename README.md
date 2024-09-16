@@ -1,8 +1,8 @@
-Syed Maaz Saeed's Portfolio 🚀
+<h1>Syed Maaz Saeed's Portfolio 🚀</h1>
 
 Welcome to my world of innovation and creativity, where technology, design, and development come together to create engaging digital experiences. This portfolio showcases my journey as a Full Stack Developer, highlighting my skills, projects, and what I can bring to your next project!
 
-🌟 <h1>Features </h1>
+ <h1>🌟Features </h1>
 
 Interactive Home: A dynamic landing page with rotating titles to introduce you to my world of development.
 
@@ -21,9 +21,9 @@ Real-Time Firebase Integration: Stay connected with real-time updates via Fireba
 Scroll Progress Bar: Visual cue to track your progress while browsing the portfolio.
 Modern and Responsive Design: Optimized for both desktop and mobile devices to ensure a seamless user experience.
 
-🛠️ Technologies Used
+<h1>🛠️ Technologies Used</h1>
 
-Frontend:
+<h2>Frontend:</h2>
 
 React.js
 
@@ -42,37 +42,37 @@ React Slick (for smooth scrolling and carousels)
 CSS3 (using custom variables and media queries for responsiveness)
 
 
-Backend & Database:
+<h2>Backend & Database:</h2>
 
 Firebase Firestore (for real-time data management)
 
 EmailJS (for contact form functionality)
 
 
-Additional Libraries:
+<h2>Additional Libraries:</h2>
 
 Firebase (for authentication and Firestore)
 
 Chart.js (for rendering beautiful charts and graphs)
 
-🚀 Getting Started
+<h1>🚀 Getting Started</h1>
 
-Local Installation
+<h2>Local Installation </h2>
 
-Clone the repository:
+<h2>Clone the repository:</h2>
 
 git clone https://github.com/syedmaazsaeed/latest-react-portfolio.git
 
-Navigate to the project directory:
+<h2>Navigate to the project directory:</h2>
 
 cd latest-react-portfolio
 
-Install the dependencies:
+<h2>Install the dependencies:</h2>
 
 
 npm install
 
-Add Firebase environment variables:
+<h2>Add Firebase environment variables:</h2>
 
 Create a .env file in the root directory and add the following details:
 
@@ -89,7 +89,7 @@ REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
 
 REACT_APP_FIREBASE_APP_ID=your_app_id
 
-Start the development server:
+<h1>Start the development server:</h1>
 
 npm start
 
