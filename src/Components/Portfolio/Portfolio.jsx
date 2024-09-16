@@ -19,7 +19,7 @@ const data = [
       image: Github,
       title: 'Github-CodeSource-FullStack-App',
       github: 'https://github.com/syedmaazsaeed/Github-CodeSource-FullStack-App',
-      demo: 'https://github.com/syedmaazsaeed/Github-CodeSource-FullStack-App',
+      demo: '#',
       category: 'Full Stack MERN Apps'
    },
    {
@@ -43,7 +43,7 @@ const data = [
       image: NewsPulse,
       title: 'React-NewsPulse-App',
       github: 'https://github.com/syedmaazsaeed/React-NewsPulse-App',
-      demo: 'https://github.com/syedmaazsaeed/React-NewsPulse-App',
+      demo: '#',
       category: 'Front-End'
    },
    {
@@ -51,7 +51,7 @@ const data = [
       image: MovieApp,
       title: 'React-Movie-Search',
       github: 'https://github.com/syedmaazsaeed/React-Movie-Search',
-      demo: 'https://github.com/syedmaazsaeed/React-Movie-Search',
+      demo: '#',
       category: 'Front-End'
    },
    {
@@ -67,7 +67,7 @@ const data = [
       image: EcommerceStore,
       title: 'EcommerceShopifyStore-reactApp',
       github: 'https://github.com/syedmaazsaeed/EcommerceShopifyStore-reactApp',
-      demo: 'https://github.com/syedmaazsaeed/EcommerceShopifyStore-reactApp',
+      demo: '#',
       category: 'Full Stack MERN Apps'
    },
    {
@@ -75,7 +75,7 @@ const data = [
       image: TechfolioReact,
       title: 'Techfolio-React ',
       github: 'https://github.com/syedmaazsaeed/Techfolio-React',
-      demo: 'https://github.com/syedmaazsaeed/Techfolio-React',
+      demo: '#',
       category: 'Front-End'
    },
    {
