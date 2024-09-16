@@ -95,13 +95,13 @@ npm start
 
 Your app should now be running at http://localhost:3000.
 
-🌌 Live Preview
+<h2>🌌 Live Preview </h2>
 
 Explore the live version of the portfolio: https://syedmaazsaeed.tech/
 
 🔗 Syed Maaz Saeed's Portfolio
 
-📂 Project Structure
+<h2>📂 Project Structure </h2>
 
 Header Component: Contains the main introduction and hero banner.
 
@@ -122,7 +122,7 @@ Contact Component: Fully functional contact form that sends inquiries directly t
 Footer Component: Includes links to my social media profiles and GitHub.
 
 
-📜 Firebase Integration
+<h2>📜 Firebase Integration</h2>
 
 This portfolio uses Firebase for real-time feedback management.
 
@@ -136,7 +136,7 @@ Retrieving feedback
 
 User sign-in and authentication (if implemented)
 
-🌟 How to Customize
+<h2>🌟 How to Customize</h2>
 
 Feel free to customize the portfolio by editing the components in the src/Components/ folder:
 
@@ -147,14 +147,14 @@ Modify personal information in the About section.
 Update skills and experience in the Experience component.
 
 
-To deploy your customized version, run:
+<h2>To deploy your customized version, run:</h2>
 
 
 npm run build
 
 And upload the build directory to your preferred hosting platform (like Vercel, Netlify, or Firebase Hosting).
 
-📞 Contact & Collaboration
+<h2>📞 Contact & Collaboration </h2>
 
 Have a project or idea in mind? Let’s collaborate and create something great together.
 
@@ -170,7 +170,7 @@ Have a project or idea in mind? Let’s collaborate and create something great t
 
 If you'd like to contribute, follow these steps:
 
-Fork the repository.
+<h2>Fork the repository.</h2>
 
 Create a new branch (git checkout -b feature-branch).
 
@@ -181,7 +181,7 @@ Push to the branch (git push origin feature-branch).
 Open a pull request.
 
 
-🛠 Future Plans
+<h2>🛠 Future Plans</h2>
 
 Add user authentication with Firebase.
 
@@ -190,7 +190,7 @@ Implement an admin dashboard to manage projects and testimonials.
 Improve accessibility and SEO for better performance.
 
 
-💡 Let's Explore the Digital Universe Together!
+<h2>💡 Let's Explore the Digital Universe Together!</h2>
 
 This portfolio is more than just a showcase—
 
